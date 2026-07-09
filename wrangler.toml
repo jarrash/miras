@@ -1,0 +1,13 @@
+name = "miras"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+build = { command = "npm run build", cwd = "./", watch_paths = [] }
+dir = "out"
+compatibility_date = "2024-01-01"
+
+[env.production]
+account_id = ""
+zone_id = ""
